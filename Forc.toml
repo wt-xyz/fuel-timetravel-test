@@ -1,0 +1,7 @@
+[project]
+authors = ["Mattias Lightstone"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "timestamp-travel"
+
+[dependencies]

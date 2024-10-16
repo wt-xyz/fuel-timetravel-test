@@ -1,0 +1,13 @@
+[[package]]
+name = "core"
+source = "path+from-root-E94B90DC4BF55373"
+
+[[package]]
+name = "std"
+source = "git+https://github.com/fuellabs/sway?rev#f5fd2e63a6ed0f947dd3f978cc15f6d788f53843"
+dependencies = ["core"]
+
+[[package]]
+name = "timestamp-travel"
+source = "member"
+dependencies = ["std"]

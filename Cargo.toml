@@ -1,0 +1,19 @@
+[package]
+name = "timestamp-travel"
+description = "A cargo-generate template for Rust + Sway integration testing."
+version = "0.1.0"
+edition = "2021"
+authors = ["Mattias Lightstone <87032785+mattiaslightstone@users.noreply.github.com>"]
+license = "Apache-2.0"
+
+[dev-dependencies]
+fuels = "0.66.1"
+tokio = { version = "1.12", features = ["rt", "macros"] }
+
+[[test]]
+harness = true
+name = "integration_tests"
+path = "tests/harness.rs"
+
+[dependencies]
+chrono = "0.4.38"
